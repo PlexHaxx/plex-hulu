@@ -1,0 +1,22 @@
+[
+  {
+        "id": "username",
+        "type": "text",
+        "label": "Username",
+        "default": ""
+    },
+    {
+        "id": "password",
+        "type": "text",
+        "label": "Password",
+        "default": "",
+        "option": "hidden"
+    },
+    {
+        "id": "items_per_page",
+        "type": "enum",
+	"values":       ["10", "25", "50"],        
+        "label": "Items per page",
+        "default": "25",
+    }
+]
